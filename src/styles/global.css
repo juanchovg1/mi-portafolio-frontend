@@ -1,5 +1,11 @@
 #responsive_content {
-    max-width: 1200px;
+    width: 90%; /* Ocupa el 90% del ancho disponible */
+    max-width: 1200px; /* No supera los 1200px en pantallas grandes */
+    margin: 0 auto; /* Centrado horizontal */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f8f9fa; /* Color de fondo */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
 a {
@@ -37,6 +43,24 @@ button:hover {
 button:focus,
 button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Diseño adaptable para tablets */
+@media (max-width: 1024px) {
+    #responsive_content {
+        width: 95%; /* Ocupa más espacio en pantallas medianas */
+        padding: 15px;
+    }
+}
+
+/* Diseño adaptable para móviles */
+@media (max-width: 768px) {
+    #responsive_content {
+        width: 100%; /* Ocupa todo el ancho en móviles */
+        padding: 10px;
+        box-shadow: none; /* Eliminar sombra en pantallas pequeñas */
+        border-radius: 0; /* Eliminar bordes redondeados */
+    }
 }
 
 @media (prefers-color-scheme: light) {
