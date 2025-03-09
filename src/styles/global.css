@@ -26,13 +26,15 @@ color: #535bf2;
 }
 
 body {
-margin: 0;
+margin: 0 auto;
 display: flex;
 justify-content: center;
 place-items: center;
 align-items: baseline;
 min-width: 100%;
 min-height: 100vh;
+max-width: 1400px;
+padding: 2rem;
 }
 
 h1 {
