@@ -12,6 +12,10 @@
     justify-content: center;
 }
 
+.main_content {
+    width: 1200px;
+}
+
 .logo {
     height: 6em;
     padding: 1.5em;
