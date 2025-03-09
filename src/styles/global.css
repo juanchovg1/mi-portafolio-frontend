@@ -4,6 +4,7 @@ line-height: 1.5;
 font-weight: 400;
 min-width: 100%;
 
+display: flex;
 
 color-scheme: light dark;
 color: rgba(255, 255, 255, 0.87);
@@ -27,6 +28,7 @@ color: #535bf2;
 body {
 margin: 0;
 display: flex;
+justify-content: center;
 place-items: center;
 align-items: baseline;
 min-width: 100%;
