@@ -16,8 +16,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 1rem; /* Add padding to ensure responsiveness */
-    margin: 0 auto;
 }
 
 .header-text {
