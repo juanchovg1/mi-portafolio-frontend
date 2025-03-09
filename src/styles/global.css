@@ -18,7 +18,8 @@ a:hover {
 }
 
 body {
- /* Add padding to ensure content adapts to body width */
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
