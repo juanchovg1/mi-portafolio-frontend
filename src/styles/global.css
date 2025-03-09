@@ -4,7 +4,6 @@
     max-width: 1200px; /* No supera los 1200px en pantallas grandes */
     margin: 0 auto; /* Centrado horizontal */
     padding: 20px; /* Espaciado interno */
-    background-color: #f8f9fa; /* Color de fondo */
     border-radius: 8px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
