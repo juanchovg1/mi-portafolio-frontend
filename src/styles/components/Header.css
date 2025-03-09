@@ -18,8 +18,12 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     font-size: 30px;
-    color: #e9e9e9;
+    color: #000; /* Change text color to black */
     text-align: left;
+}
+
+.header-text:hover {
+    color: #0000ff; /* Change text color to blue on hover */
 }
 
 .header-nav {
@@ -32,6 +36,12 @@
     font-size: 16px;
     color: #e9e9e9;
     text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease; /* Add transition for dynamic effect */
+}
+
+.header-nav a:hover {
+    color: #0000ff; /* Change text color to blue on hover */
+    transform: scale(1.1); /* Add dynamic effect on hover */
 }
 
 .header-menu {
