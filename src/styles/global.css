@@ -1,4 +1,5 @@
 #responsive_content {
+    background-color: transparent;
     width: 90%; /* Ocupa el 90% del ancho disponible */
     max-width: 1200px; /* No supera los 1200px en pantallas grandes */
     margin: 0 auto; /* Centrado horizontal */
