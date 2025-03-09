@@ -1,3 +1,7 @@
+.responsive_content {
+    max-width: 1200px;
+}
+
 a {
     font-weight: 500;
     color: #646cff;
@@ -9,10 +13,6 @@ a:hover {
 
 body {
  /* Add padding to ensure content adapts to body width */
-}
-
-div.responsive_content {
-    max-width: 1200px;
 }
 
 h1 {
