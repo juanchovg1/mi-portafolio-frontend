@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 const ProfileSection = () => {
 return (
@@ -12,12 +11,10 @@ return (
         Automation Specialist | Streamlining Workflows in Construction and Beyond
     </p>
     <div className="relative w-48 h-48 mt-6">
-        <Image
-        src="/juan.png" // Ensure the image is in the public folder of Next.js
+        <img
+        src="/juan.png" // Ensure the image is in the public folder
         alt="Juan Villota"
-        layout="fill"
-        objectFit="cover"
-        className="rounded-full"
+        className="rounded-full w-full h-full object-cover"
         />
     </div>
     <div className="mt-6 flex gap-4">
