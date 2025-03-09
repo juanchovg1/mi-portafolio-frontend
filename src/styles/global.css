@@ -20,6 +20,8 @@ a:hover {
 body {
     display: flex;
     justify-content: center;
+    color: #f1f1f1; /* Change text color */
+    background-color: #131516; /* Change background color */
 }
 
 h1 {
@@ -66,8 +68,8 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
     :root {
-        color: #213547;
-        background-color: #ffffff;
+        color: #f1f1f1; /* Change text color */
+        background-color: #131516; /* Change background color */
     }
     a:hover {
         color: #747bff;
