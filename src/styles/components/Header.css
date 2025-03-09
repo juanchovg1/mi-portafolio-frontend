@@ -23,7 +23,7 @@
 }
 
 .header-text:hover {
-    color: #0000ff; /* Change text color to blue on hover */
+    color: #00FFFF; /* Change text color to blue on hover */
 }
 
 .header-nav {
@@ -40,7 +40,7 @@
 }
 
 .header-nav a:hover {
-    color: #0000ff; /* Change text color to blue on hover */
+    color: #00FFFF; /* Change text color to blue on hover */
     transform: scale(1.1); /* Add dynamic effect on hover */
 }
 
