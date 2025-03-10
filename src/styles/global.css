@@ -22,6 +22,7 @@ body {
     justify-content: center;
     color: #f1f1f1; /* Change text color */
     background-color: #131516; /* Change background color */
+    overflow: hidden; /* Prevent scrolling */
 }
 
 h1 {
@@ -46,6 +47,28 @@ button:hover {
 button:focus,
 button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
+}
+
+.stars {
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    box-shadow: 
+        1000px 2000px #fff, 1500px 3000px #fff, 2000px 4000px #fff, 2500px 5000px #fff,
+        3000px 6000px #fff, 3500px 7000px #fff, 4000px 8000px #fff, 4500px 9000px #fff,
+        5000px 10000px #fff, 5500px 11000px #fff, 6000px 12000px #fff, 6500px 13000px #fff,
+        7000px 14000px #fff, 7500px 15000px #fff, 8000px 16000px #fff, 8500px 17000px #fff,
+        9000px 18000px #fff, 9500px 19000px #fff, 10000px 20000px #fff, 10500px 21000px #fff;
+    animation: animStar 150s linear infinite;
+}
+
+@keyframes animStar {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-20000px);
+    }
 }
 
 /* Diseño adaptable para tablets */
