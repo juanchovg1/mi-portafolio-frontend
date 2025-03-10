@@ -6,11 +6,11 @@ const ProfileSection = () => {
 
     const texts = [
         {
-            name: "I'm <span className='name-highlight'>Juan Villota</span>",
+            name: "I'm <span className='name-highlight' style='color: #00FFFF;'>Juan Villota</span>",
             description: "Automation Specialist | Streamlining Workflows in Construction and Beyond"
         },
         {
-            name: "I'm an <span className='name-highlight'>automation Expert & Problem Solver</span>",
+            name: "I'm an <span className='name-highlight' style='color: #00FFFF;'>automation Expert & Problem Solver</span>",
             description: "based in Bogotá, Colombia"
         }
     ];
