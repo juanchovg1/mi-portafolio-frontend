@@ -55,7 +55,7 @@ const experiences = [
 const ResumeCard = ({ year, title, company, location, description }) => (
 <div className="resume-card">
     <h3 className="resume-year">{year}</h3>
-    <h2 className="resume-title">{title}</h2>
+    <h2 className="resume-card-title">{title}</h2>
     <h4 className="resume-company">{company}</h4>
     <p className="resume-location">{location}</p>
     <p className="resume-description">{description}</p>
@@ -66,7 +66,7 @@ const ResumeSection = () => {
 return (
     <section className="resume-section">
     <div className="resume-header">
-        <h1 className="resume-title">Resume</h1>
+        <h1 className="resume-main-title">Resume</h1>
         <p className="resume-quote">"Success is the sum of small efforts, repeated day in and day out." – Robert Collier</p>
     </div>
     <div className="resume-content">

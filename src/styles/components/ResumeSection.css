@@ -11,7 +11,7 @@
   margin-bottom: 20px;
 }
 
-.resume-title {
+.resume-main-title {
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
   font-size: 56px;
@@ -54,7 +54,7 @@
   font-size: 1.125rem;
 }
 
-.resume-title {
+.resume-card-title {
   font-size: 1.25rem;
   font-weight: 600;
   margin-top: 0.5rem;
