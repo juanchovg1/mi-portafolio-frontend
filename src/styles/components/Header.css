@@ -1,10 +1,14 @@
 .header {
-    background: transparent;
+    background: rgba(19, 21, 22, 0.8); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
+    position: fixed; /* Fixed position */
+    top: 0; /* Stick to the top */
+    z-index: 1000; /* Ensure it is above other content */
 }
 
 .header-content {
@@ -12,6 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 1rem; /* Adjust padding for smaller screens */
 }
 
 .header-text {
