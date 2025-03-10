@@ -3,16 +3,32 @@
   grid-template-columns: 1fr;
   gap: 1.5rem;
   padding: 1.5rem;
-  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
-  backdrop-filter: blur(10px); /* Blur effect for glassmorphism */
+  background: transparent; /* Make background transparent */
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 @media (min-width: 768px) {
   .resume-section {
     grid-template-columns: 1fr 1fr;
   }
+}
+
+.resume-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 56px;
+  color: #f1f1f1;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.resume-quote {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #999999;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .resume-card {

@@ -5,11 +5,6 @@ import App from './App.jsx';
 
 createRoot(document.getElementById('main_content')).render(
   <StrictMode>
-    <div className="video-background">
-      <video autoPlay muted loop playbackRate="0.5">
-        <source src="/background.mp4" type="video/mp4" />
-      </video>
-    </div>
     <App />
   </StrictMode>,
 );
