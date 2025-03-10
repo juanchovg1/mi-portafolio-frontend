@@ -29,27 +29,27 @@ const AboutMe = () => {
                     <p className="about-me-quote">"Learning never exhausts the mind." – Leonardo da Vinci</p>
                     <p className="about-me-detail">
                         <strong>Name:</strong> 
-                        <span style={{ fontFamily: 'Poppins', fontWeight: 400, fontSize: '18px', color: '#999999' }}> Juan Armando Villota</span>
+                        <span className="about-me-info">Juan Armando Villota</span>
                     </p>
                     <p className="about-me-detail">
                         <strong>Date of birth:</strong> 
-                        <span style={{ fontFamily: 'Poppins', fontWeight: 400, fontSize: '18px', color: '#999999' }}> January 28, 1999</span>
+                        <span className="about-me-info">January 28, 1999</span>
                     </p>
                     <p className="about-me-detail">
                         <strong>Address:</strong> 
-                        <span style={{ fontFamily: 'Poppins', fontWeight: 400, fontSize: '18px', color: '#999999' }}> Bogotá, Colombia</span>
+                        <span className="about-me-info">Bogotá, Colombia</span>
                     </p>
                     <p className="about-me-detail">
                         <strong>Zip code:</strong> 
-                        <span style={{ fontFamily: 'Poppins', fontWeight: 400, fontSize: '18px', color: '#999999' }}> 110111</span>
+                        <span className="about-me-info">110111</span>
                     </p>
                     <p className="about-me-detail">
                         <strong>Email:</strong> 
-                        <span style={{ fontFamily: 'Poppins', fontWeight: 400, fontSize: '18px', color: '#999999' }}> villota99@hotmail.com</span>
+                        <span className="about-me-info">villota99@hotmail.com</span>
                     </p>
                     <p className="about-me-detail">
                         <strong>Phone:</strong> 
-                        <span style={{ fontFamily: 'Poppins', fontWeight: 400, fontSize: '18px', color: '#999999' }}> +57 316-379-7543</span>
+                        <span className="about-me-info">+57 316-379-7543</span>
                     </p>
                     <p className="about-me-projects">
                         <span style={{ fontFamily: 'Poppins', fontWeight: 400, fontSize: '20px', color: '#f1f1f1' }}>
