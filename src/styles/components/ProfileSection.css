@@ -42,7 +42,7 @@
 }
 
 .name-highlight {
-    color: #00FFFF;
+    color: #00FFFF; /* Ensure the highlight color is correct */
 }
 
 .description-text {
