@@ -64,15 +64,7 @@
   color: #f1f1f1;
 }
 
-.resume-card-company {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 14px;
-  color: #999;
-}
-
-.resume-card-location {
+.resume-card-company-location {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 16px;
