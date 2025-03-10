@@ -83,6 +83,9 @@
     font-weight: 500;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
+    width: 140px; /* Fixed width */
+    height: 40px; /* Fixed height */
+    font-size: 14px; /* Fixed font size */
 }
 
 .button-primary:hover {
