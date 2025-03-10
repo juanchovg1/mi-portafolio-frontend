@@ -69,9 +69,11 @@ return (
         <h1 className="resume-title">Resume</h1>
         <p className="resume-quote">"Success is the sum of small efforts, repeated day in and day out." – Robert Collier</p>
     </div>
-    {experiences.map((exp, index) => (
+    <div className="resume-content">
+        {experiences.map((exp, index) => (
         <ResumeCard key={index} {...exp} />
-    ))}
+        ))}
+    </div>
     </section>
 );
 };
