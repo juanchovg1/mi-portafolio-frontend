@@ -52,7 +52,7 @@ const AboutMe = () => {
                         <span className="about-me-info">+57 316-379-7543</span>
                     </p>
                     <p className="about-me-projects">
-                        <span style={{ fontFamily: 'Poppins', fontWeight: 400, fontSize: '20px', color: '#f1f1f1' }}>
+                        <span style={{ fontFamily: 'Poppins', fontWeight: 700, fontSize: '20px', color: '#f1f1f1' }}>
                             <span style={{ color: '#00FFFF' }}>{projectCount}</span> Projects Complete
                         </span>
                     </p>
