@@ -1,0 +1,49 @@
+.resume-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .resume-section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.resume-card {
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #f1f1f1;
+}
+
+.resume-year {
+  color: #00FFFF;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.resume-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.resume-company {
+  color: #888;
+  font-weight: 500;
+  margin-top: 0.25rem;
+}
+
+.resume-location {
+  color: #aaa;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.resume-description {
+  color: #ccc;
+  margin-top: 0.75rem;
+}
