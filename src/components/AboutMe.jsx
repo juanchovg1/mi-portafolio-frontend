@@ -36,13 +36,13 @@ const AboutMe = () => {
                             <p className="about-me-detail"><strong>Email:</strong></p>
                             <p className="about-me-detail"><strong>Phone:</strong></p>
                         </div>
-                        <div className="about-me-labels">
-                            <p className="about-me-info">Juan Armando Villota</p>
-                            <p className="about-me-info">January 28, 1999</p>
-                            <p className="about-me-info">Bogotá, Colombia</p>
-                            <p className="about-me-info">110111</p>
-                            <p className="about-me-info">villota99@hotmail.com</p>
-                            <p className="about-me-info">+57 319-749-3647</p>
+                        <div className="about-me-info">
+                            <p className="about-me-info-text">Juan Armando Villota</p>
+                            <p className="about-me-info-text">January 28, 1999</p>
+                            <p className="about-me-info-text">Bogotá, Colombia</p>
+                            <p className="about-me-info-text">110111</p>
+                            <p className="about-me-info-text">villota99@hotmail.com</p>
+                            <p className="about-me-info-text">+57 319-749-3647</p>
                         </div>
                     </div>
                     <p className="about-me-projects">
