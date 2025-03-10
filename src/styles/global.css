@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: center;
     color: #f1f1f1; /* Change text color */
-    background-color: #131516; /* Change background color */
+    background-color: transparent; /* Change background color */
     overflow: hidden; /* Prevent scrolling */
 }
 
