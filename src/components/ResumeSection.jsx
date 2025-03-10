@@ -56,9 +56,9 @@ const ResumeCard = ({ year, title, company, location, description }) => (
 <div className="resume-card">
     <h3 className="resume-year">{year}</h3>
     <h2 className="resume-card-title">{title}</h2>
-    <h4 className="resume-company">{company}</h4>
-    <p className="resume-location">{location}</p>
-    <p className="resume-description">{description}</p>
+    <h4 className="resume-card-company">{company}</h4>
+    <p className="resume-card-location">{location}</p>
+    <p className="resume-card-description">{description}</p>
 </div>
 );
 
