@@ -40,6 +40,7 @@
     justify-content: center;
     width: 50%;
     text-align: left;
+    row-gap: 20px; /* Add gap between each row */
 }
 
 .about-me-title {
@@ -52,15 +53,15 @@
 .about-me-quote {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 36px;
-    color: #f1f1f1;
+    font-size: 16px;
+    color: #999999; /* Updated color */
     margin-bottom: 20px;
 }
 
 .about-me-detail {
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 700;
+    font-size: 18px;
     color: #f1f1f1;
     margin-bottom: 10px;
 }
