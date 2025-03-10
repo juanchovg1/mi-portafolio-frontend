@@ -105,8 +105,16 @@
 
 .about-me-details {
     display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 5px 10px; /* Adjust gap as needed */
+    grid-template-columns: auto auto;
+    gap: 5px 20px; /* Adjust gap as needed */
+}
+
+.about-me-labels {
+    text-align: right; /* Align labels to the right */
+}
+
+.about-me-info-column {
+    text-align: left; /* Align info to the left */
 }
 
 @media (max-width: 768px) {

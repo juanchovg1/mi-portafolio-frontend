@@ -28,30 +28,22 @@ const AboutMe = () => {
                     <h1 className="about-me-title">About Me</h1>
                     <p className="about-me-quote">"Learning never exhausts the mind." – Leonardo da Vinci</p>
                     <div className="about-me-details">
-                        <p className="about-me-detail">
-                            <strong>Name:</strong> 
-                            <span className="about-me-info">Juan Armando Villota</span>
-                        </p>
-                        <p className="about-me-detail">
-                            <strong>Date of birth:</strong> 
-                            <span className="about-me-info">January 28, 1999</span>
-                        </p>
-                        <p className="about-me-detail">
-                            <strong>Address:</strong> 
-                            <span className="about-me-info">Bogotá, Colombia</span>
-                        </p>
-                        <p className="about-me-detail">
-                            <strong>Zip code:</strong> 
-                            <span className="about-me-info">110111</span>
-                        </p>
-                        <p className="about-me-detail">
-                            <strong>Email:</strong> 
-                            <span class="about-me-info">villota99@hotmail.com</span>
-                        </p>
-                        <p className="about-me-detail">
-                            <strong>Phone:</strong> 
-                            <span className="about-me-info">+57 319-749-3647</span>
-                        </p>
+                        <div className="about-me-labels">
+                            <p className="about-me-detail"><strong>Name:</strong></p>
+                            <p className="about-me-detail"><strong>Date of birth:</strong></p>
+                            <p className="about-me-detail"><strong>Address:</strong></p>
+                            <p className="about-me-detail"><strong>Zip code:</strong></p>
+                            <p className="about-me-detail"><strong>Email:</strong></p>
+                            <p className="about-me-detail"><strong>Phone:</strong></p>
+                        </div>
+                        <div className="about-me-info-column">
+                            <p className="about-me-info">Juan Armando Villota</p>
+                            <p className="about-me-info">January 28, 1999</p>
+                            <p className="about-me-info">Bogotá, Colombia</p>
+                            <p className="about-me-info">110111</p>
+                            <p className="about-me-info">villota99@hotmail.com</p>
+                            <p className="about-me-info">+57 319-749-3647</p>
+                        </div>
                     </div>
                     <p className="about-me-projects">
                         <span style={{ fontFamily: 'Poppins', fontWeight: 700, fontSize: '20px', color: '#f1f1f1' }}>
