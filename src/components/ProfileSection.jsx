@@ -10,14 +10,14 @@ return (
         <h1 className="name-text">
             I'm <span className="name-highlight">Juan Villota</span>
         </h1>
-        <p className="text-xl mt-4 max-w-xl">
+        <p className="description-text">
             Automation Specialist | Streamlining Workflows in Construction and Beyond
         </p>
         <div className="profile-buttons">
-            <button className="bg-teal-400 text-black px-6 py-2 rounded-full font-semibold">
+            <button className="button-primary">
             HIRE ME
             </button>
-            <button className="border-2 border-white px-6 py-2 rounded-full font-semibold">
+            <button className="button-secondary">
             MY WORKS
             </button>
         </div>

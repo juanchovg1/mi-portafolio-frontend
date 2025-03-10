@@ -44,6 +44,13 @@
     color: #00FFFF;
 }
 
+.description-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #f1f1f1;
+}
+
 .profile-image {
     flex: 1;
     display: flex;
@@ -63,6 +70,40 @@
     margin-top: 16px;
     display: flex;
     gap: 16px;
+}
+
+.button-primary {
+    background-color: #00FFFF;
+    color: black;
+    padding: 0.6em 1.2em;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button-primary:hover {
+    background-color: #008080;
+    transform: scale(1.05);
+}
+
+.button-secondary {
+    background-color: black;
+    color: #00FFFF;
+    padding: 0.6em 1.2em;
+    border: 2px solid #00FFFF;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button-secondary:hover {
+    background-color: #333;
+    transform: scale(1.05);
 }
 
 @media (max-width: 768px) {
