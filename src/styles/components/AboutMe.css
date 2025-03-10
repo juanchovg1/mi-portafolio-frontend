@@ -125,7 +125,6 @@
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 5px 20px; /* Adjust gap as needed */
-    align-items: center; /* Align items vertically */
 }
 
 .about-me-labels {
