@@ -36,7 +36,7 @@ const AboutMe = () => {
                             <p className="about-me-detail"><strong>Email:</strong></p>
                             <p className="about-me-detail"><strong>Phone:</strong></p>
                         </div>
-                        <div className="about-me-info-column">
+                        <div className="about-me-labels">
                             <p className="about-me-info">Juan Armando Villota</p>
                             <p className="about-me-info">January 28, 1999</p>
                             <p className="about-me-info">Bogotá, Colombia</p>

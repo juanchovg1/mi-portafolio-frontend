@@ -118,14 +118,6 @@
     strong {
         margin-top: 18px; /* Ensure consistent top margin */
     }
-}
-
-.about-me-info-column {
-    text-align: left; /* Align info to the left */
-    width: 100%; /* Ensure it takes full width */
-    display: flex;
-    flex-direction: column; /* Ensure it displays elements in a column */
-    justify-content: space-between; /* Distribute items evenly */
     p {
         margin-top: 18px; /* Ensure consistent top margin */
         margin-bottom: 0;
