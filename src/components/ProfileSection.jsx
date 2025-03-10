@@ -6,9 +6,9 @@ return (
     <section className="profile-section">
     <div className="profile-content">
         <div className="profile-text">
-        <p className="text-teal-400 text-lg">HELLO !</p>
-        <h1 className="text-5xl font-bold mt-2">
-            I'm <span className="text-teal-400">Juan Villota</span>
+        <p className="hello-text">HELLO !</p> {/* Updated class */}
+        <h1 className="name-text">
+            I'm <span className="name-highlight">Juan Villota</span>
         </h1>
         <p className="text-xl mt-4 max-w-xl">
             Automation Specialist | Streamlining Workflows in Construction and Beyond
