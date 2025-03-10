@@ -24,7 +24,7 @@ return (
         </div>
         <div className="profile-image">
         <img
-            src="/juan_nb1.png" // Ensure the image is in the public folder
+            src="/juan_nb2.png" // Ensure the image is in the public folder
             alt="Juan Villota"
         />
         </div>
