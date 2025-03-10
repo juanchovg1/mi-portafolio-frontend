@@ -24,7 +24,7 @@
     flex-direction: column;
     justify-content: center;
     width: 50%;
-    text-align: left; /* Align text to the left */
+    text-align: left;
 }
 
 .hello-text {
@@ -42,7 +42,7 @@
 }
 
 .name-highlight {
-    color: #00FFFF; /* Ensure the highlight color is correct */
+    color: #00FFFF;
 }
 
 .description-text {

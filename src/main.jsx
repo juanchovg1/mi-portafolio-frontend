@@ -5,7 +5,7 @@ import App from './App.jsx';
 
 createRoot(document.getElementById('main_content')).render(
   <StrictMode>
-    <div className="stars"></div> {/* Add stars container */}
+    <div className="stars"></div>
     <App />
   </StrictMode>,
 );

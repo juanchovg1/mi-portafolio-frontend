@@ -1,11 +1,11 @@
 #responsive_content {
     background-color: transparent;
-    width: 90%; /* Ocupa el 90% del ancho disponible */
-    max-width: 1200px; /* No supera los 1200px en pantallas grandes */
-    margin: 0 auto; /* Centrado horizontal */
-    padding: 20px; /* Espaciado interno */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 a {
@@ -20,9 +20,9 @@ a:hover {
 body {
     display: flex;
     justify-content: center;
-    color: #f1f1f1; /* Change text color */
-    background-color: transparent; /* Change background color */
-    overflow: hidden; /* Prevent scrolling */
+    color: #f1f1f1;
+    background-color: transparent;
+    overflow: hidden;
 }
 
 h1 {
@@ -71,28 +71,26 @@ button:focus-visible {
     }
 }
 
-/* Diseño adaptable para tablets */
 @media (max-width: 1024px) {
     #responsive_content {
-        width: 95%; /* Ocupa más espacio en pantallas medianas */
+        width: 95%;
         padding: 15px;
     }
 }
 
-/* Diseño adaptable para móviles */
 @media (max-width: 768px) {
     #responsive_content {
-        width: 100%; /* Ocupa todo el ancho en móviles */
+        width: 100%;
         padding: 10px;
-        box-shadow: none; /* Eliminar sombra en pantallas pequeñas */
-        border-radius: 0; /* Eliminar bordes redondeados */
+        box-shadow: none;
+        border-radius: 0;
     }
 }
 
 @media (prefers-color-scheme: light) {
     :root {
-        color: #f1f1f1; /* Change text color */
-        background-color: #131516; /* Change background color */
+        color: #f1f1f1;
+        background-color: #131516;
     }
     a:hover {
         color: #00FFFF;

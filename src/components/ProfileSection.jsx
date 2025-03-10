@@ -41,7 +41,7 @@ const ProfileSection = () => {
                 </div>
                 <div className="profile-image">
                     <img
-                        src="/juan_nb2.png" // Ensure the image is in the public folder
+                        src="/juan_nb2.png"
                         alt="Juan Villota"
                     />
                 </div>
