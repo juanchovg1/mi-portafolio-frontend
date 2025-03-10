@@ -115,6 +115,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Distribute items evenly */
+    strong {
+        margin-top: 18px; /* Ensure consistent top margin */
+    }
 }
 
 .about-me-info-column {
@@ -124,7 +127,7 @@
     flex-direction: column; /* Ensure it displays elements in a column */
     justify-content: space-between; /* Distribute items evenly */
     p {
-        margin-top: 0;
+        margin-top: 18px; /* Ensure consistent top margin */
         margin-bottom: 0;
     }
 }
