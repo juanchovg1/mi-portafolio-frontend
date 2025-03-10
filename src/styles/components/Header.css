@@ -13,10 +13,11 @@
 
 .header-content {
     width: 100%;
-    max width: 1200px;
+    max-width: 1200px; /* Fix typo and ensure max width */
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 1rem; /* Add padding to ensure content is centered */
 }
 
 .header-text {
