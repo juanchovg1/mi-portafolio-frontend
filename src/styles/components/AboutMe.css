@@ -118,6 +118,7 @@
     width: 100%; /* Ensure it takes full width */
     display: flex;
     flex-direction: column; /* Ensure it displays elements in a column */
+    align-content: space-around;
     p {
         margin-top: 5px;
         margin-bottom: 5px;
