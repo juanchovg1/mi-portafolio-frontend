@@ -48,6 +48,7 @@
     font-weight: 800;
     font-size: 56px;
     color: #f1f1f1;
+    margin-bottom: 10px; /* Reduce margin to bring title and quote closer */
 }
 
 .about-me-quote {
