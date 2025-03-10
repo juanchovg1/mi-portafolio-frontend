@@ -149,6 +149,8 @@
     .about-me-content {
         flex-direction: column;
         max-height: none;
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text */
     }
 
     .about-me-text,
