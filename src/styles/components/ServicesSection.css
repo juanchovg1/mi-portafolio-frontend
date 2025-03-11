@@ -28,7 +28,6 @@
   text-align: center;
   color: #f1f1f1;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 380px; /* Fixed width */
   height: 215px; /* Fixed height */
   display: flex;
   flex-direction: column;
@@ -69,8 +68,14 @@
   margin: 0 auto;
 }
 
+@media (max-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr); /* Change to 2 columns */
+  }
+}
+
 @media (max-width: 768px) {
   .services-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* Change to 1 column */
   }
 }
