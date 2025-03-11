@@ -50,7 +50,7 @@ const AboutMe = () => {
                             <span style={{ color: '#00FFFF' }}>{projectCount}</span> Projects Complete
                         </span>
                     </p>
-                    <button className="button-primary">DOWNLOAD CV</button>
+                    <a href="/CV_Juan_Villota.pdf" download className="button-primary">DOWNLOAD CV</a>
                 </div>
             </div>
         </section>
