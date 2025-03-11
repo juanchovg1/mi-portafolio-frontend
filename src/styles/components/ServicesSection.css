@@ -17,7 +17,7 @@
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr); /* Change to 3 columns */
   gap: 20px;
 }
 
@@ -47,7 +47,12 @@
   font-size: 45px; /* Fixed icon size */
   width: 45px; /* Fixed icon width */
   height: 45px; /* Fixed icon height */
-  color: inherit; /* Inherit color from parent */
+  color: #00FFFF; /* Initial icon color */
+  transition: color 0.3s; /* Add transition for color change */
+}
+
+.service-card:hover .service-icon {
+  color: #1a1a1a; /* Change icon color on hover */
 }
 
 .service-title {
