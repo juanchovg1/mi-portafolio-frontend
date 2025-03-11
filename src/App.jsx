@@ -3,7 +3,8 @@ import Home from "./pages/Home";
 import Header from "./components/Header";
 import ProfileSection from "./components/ProfileSection";
 import AboutMe from "./components/AboutMe";
-import ResumeSection from "./components/ResumeSection"; // Import ResumeSection
+import ResumeSection from "./components/ResumeSection";
+import ServicesSection from "./components/ServicesSection"; // Import ServicesSection
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Header />
       <ProfileSection />
       <AboutMe />
-      <ResumeSection /> {/* Include ResumeSection */}
+      <ResumeSection />
+      <ServicesSection /> {/* Include ServicesSection */}
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
