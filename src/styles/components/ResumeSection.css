@@ -76,3 +76,29 @@
   color: #ccc;
   margin-top: 0.75rem;
 }
+
+.resume-download {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-primary {
+  background-color: #00FFFF;
+  color: black;
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  width: 140px; /* Fixed width */
+  height: 40px; /* Fixed height */
+  font-size: 14px; /* Fixed font size */
+}
+
+.button-primary:hover {
+  background-color: #008080;
+  transform: scale(1.05);
+}

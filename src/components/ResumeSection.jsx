@@ -73,6 +73,9 @@ return (
         <ResumeCard key={index} {...exp} />
         ))}
     </div>
+    <div className="resume-download">
+        <a href="/CV_Juan_Villota.pdf" download className="button-primary">DOWNLOAD CV</a>
+    </div>
     </section>
 );
 };
