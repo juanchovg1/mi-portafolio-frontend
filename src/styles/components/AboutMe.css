@@ -156,5 +156,6 @@
     .about-me-text,
     .about-me-image {
         width: 100%;
+        align-items: center; /* Center horizontally */
     }
 }
