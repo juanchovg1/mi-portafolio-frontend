@@ -1,7 +1,7 @@
 .profile-section {
     display: flex;
     max-width: 1200px;
-    margin: 0 auto;
+    padding: 0px;
     margin-top: 20px; /* Add top margin */
     flex-direction: column;
     align-items: center;
