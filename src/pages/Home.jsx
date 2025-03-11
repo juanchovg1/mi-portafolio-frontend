@@ -11,7 +11,6 @@ function Home() {
 
   return (
     <div className="content">
-      <h1>Bienvenido a mi portafolio 🚀</h1>
       <p>{data}</p>
     </div>
   );
