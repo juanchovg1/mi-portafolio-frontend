@@ -2,6 +2,7 @@
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
+    margin-top: 20px; /* Add top margin */
     flex-direction: column;
     align-items: center;
     text-align: center;
