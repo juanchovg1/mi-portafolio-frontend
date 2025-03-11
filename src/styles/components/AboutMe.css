@@ -89,6 +89,9 @@
     width: 140px; /* Fixed width */
     height: 40px; /* Fixed height */
     font-size: 14px; /* Fixed font size */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center text */
 }
 
 .button-primary:hover {
