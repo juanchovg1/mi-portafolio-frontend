@@ -41,6 +41,7 @@
     font-weight: 800;
     font-size: 56px;
     color: #f1f1f1;
+    margin-top: 0px; /* Remove top margin */
 }
 
 .name-highlight {
