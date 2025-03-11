@@ -73,6 +73,7 @@
 }
 
 .resume-card-description {
+  font-family: 'Poppins', sans-serif; /* Set font to Poppins */
   color: #ccc;
   margin-top: 0.75rem;
 }

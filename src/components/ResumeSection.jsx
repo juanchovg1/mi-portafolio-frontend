@@ -12,7 +12,7 @@ const experiences = [
 },
 {
     year: "2024-Present",
-    title: "Automation Specialist & Pre-Construction Coordinator",
+    title: "Automation Specialist",
     company: "Rechsteiner Signature Homes",
     location: "Vancouver, BC, Canada (Remote)",
     description:
