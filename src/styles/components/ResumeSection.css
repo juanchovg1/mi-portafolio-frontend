@@ -1,6 +1,6 @@
 .resume-section {
   max-width: 1200px;
-  margin: 0 auto;
+  padding: 0px;
   background: transparent; /* Make background transparent */
   border-radius: 10px;
 }
