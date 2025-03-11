@@ -8,8 +8,6 @@
     position: fixed; /* Fixed position */
     top: 0; /* Stick to the top */
     z-index: 1000; /* Ensure it is above other content */
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .header-content {
