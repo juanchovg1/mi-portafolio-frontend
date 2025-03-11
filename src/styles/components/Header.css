@@ -4,7 +4,7 @@
     height: 60px;
     display: flex;
     align-items: center;
-    width: 100%; /* Ensure header width is 100% */
+    width: 100vw; /* Ensure header width is 100% of the viewport */
     position: fixed; /* Fixed position */
     top: 0; /* Stick to the top */
     z-index: 1000; /* Ensure it is above other content */
