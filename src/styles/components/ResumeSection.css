@@ -3,6 +3,7 @@
   padding: 0px;
   background: transparent; /* Make background transparent */
   border-radius: 10px;
+  height: auto; /* Adapt height to content */
 }
 
 .resume-header {
