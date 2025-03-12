@@ -57,7 +57,7 @@
 }
 
 .resume-year {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif; /* Set font to Poppins */
   font-weight: 900;
   font-size: 26px;
   line-height: 36px;
@@ -65,7 +65,7 @@
 }
 
 .resume-card-title {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif; /* Set font to Poppins */
   font-weight: 400;
   font-size: 26px;
   margin-bottom: 5px;
@@ -74,7 +74,7 @@
 }
 
 .resume-card-company-location {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif; /* Set font to Poppins */
   font-weight: 600;
   font-size: 16px;
   margin-top: 0; /* Remove top margin */
