@@ -2,7 +2,6 @@
     background-color: transparent;
     margin: 0px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 a {
@@ -18,6 +17,7 @@ body {
     display: flex;
     flex-direction: column; /* Change to column layout */
     align-items: center;
+    margin: 0px;
     color: #f1f1f1;
     background-color: #131516; /* Set background color */
     overflow: auto; /* Allow scrolling */
@@ -57,7 +57,6 @@ button:focus-visible {
     backdrop-filter: blur(10px); /* Blur effect for glassmorphism */
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 1024px) {
