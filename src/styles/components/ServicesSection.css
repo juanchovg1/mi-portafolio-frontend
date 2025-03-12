@@ -1,86 +1,86 @@
 .services-section {
-  padding: 40px 20px;
-  text-align: center;
+    padding: 40px 20px;
+    text-align: center;
 }
 
 .services-title {
-  font-family: 'Poppins', sans-serif; /* Set font to Poppins */
-  font-weight: 800;
-  font-size: 56px; /* Match the font size of Resume title */
-  color: #f1f1f1;
-  margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif; /* Set font to Poppins */
+    font-weight: 800;
+    font-size: 56px; /* Match the font size of Resume title */
+    color: #f1f1f1;
+    margin-bottom: 10px;
 }
 
 .services-subtitle {
-  font-family: 'Poppins', sans-serif; /* Set font to Poppins */
-  font-weight: 400;
-  font-size: 16px; /* Match the font size of Resume quote */
-  color: #999999;
-  text-align: center;
-  margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif; /* Set font to Poppins */
+    font-weight: 400;
+    font-size: 16px; /* Match the font size of Resume quote */
+    color: #999999;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .services-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Change to 3 columns */
-  gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Change to 3 columns */
+    gap: 20px;
 }
 
 .service-card {
-  background-color: #1a1a1a;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-  color: #f1f1f1;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  height: 215px; /* Fixed height */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px; /* Gap between elements */
-  transition: background-color 0.3s, color 0.3s; /* Add transition for dynamic effect */
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #f1f1f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 215px; /* Fixed height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Gap between elements */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for dynamic effect */
 }
 
 .service-card:hover {
-  background-color: #00FFFF; /* Change background color on hover */
-  color: #1a1a1a; /* Change text color on hover */
+    background-color: #00FFFF; /* Change background color on hover */
+    color: #1a1a1a; /* Change text color on hover */
 }
 
 .service-icon {
-  font-size: 45px; /* Fixed icon size */
-  width: 45px; /* Fixed icon width */
-  height: 45px; /* Fixed icon height */
-  color: #00FFFF; /* Initial icon color */
-  transition: color 0.3s; /* Add transition for color change */
+    font-size: 45px; /* Fixed icon size */
+    width: 45px; /* Fixed icon width */
+    height: 45px; /* Fixed icon height */
+    color: #00FFFF; /* Initial icon color */
+    transition: color 0.3s; /* Add transition for color change */
 }
 
 .service-card:hover .service-icon {
-  color: #1a1a1a; /* Change icon color on hover */
+    color: #1a1a1a; /* Change icon color on hover */
 }
 
 .service-title {
-  font-family: 'Poppins', sans-serif; /* Set font to Poppins */
-  font-weight: 400;
-  font-size: 18px; /* Fixed font size */
-  color: inherit; /* Inherit color from parent */
+    font-family: 'Poppins', sans-serif; /* Set font to Poppins */
+    font-weight: 400;
+    font-size: 18px; /* Fixed font size */
+    color: inherit; /* Inherit color from parent */
 }
 
 .service-line {
-  width: 50px;
-  height: 2px;
-  background-color: inherit; /* Inherit color from parent */
-  margin: 0 auto;
+    width: 50px;
+    height: 2px;
+    background-color: inherit; /* Inherit color from parent */
+    margin: 0 auto;
 }
 
 @media (max-width: 1024px) {
-  .services-grid {
+.services-grid {
     grid-template-columns: repeat(2, 1fr); /* Change to 2 columns */
-  }
+}
 }
 
 @media (max-width: 768px) {
-  .services-grid {
+.services-grid {
     grid-template-columns: 1fr; /* Change to 1 column */
-  }
+}
 }
