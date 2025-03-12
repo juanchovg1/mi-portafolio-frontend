@@ -51,7 +51,7 @@
 .resume-card {
   background-color: #1a1a1a;
   padding: 1.5rem;
-  border-radius: 0.75rem;
+  border-radius: 0.75rem
   color: #f1f1f1;
 }
 
@@ -75,6 +75,7 @@
   margin: 0px;
   z-index: 2;
   color: #00FFFF;
+  letter-spacing: 2px; /* Increase letter spacing */
 }
 
 .resume-card-title {

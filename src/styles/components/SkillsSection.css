@@ -1,0 +1,70 @@
+.skills-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+}
+
+.skills-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 56px;
+  color: #f1f1f1;
+  margin-bottom: 10px;
+}
+
+.skills-quote {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #999999;
+  margin-bottom: 40px;
+}
+
+.skills-category {
+  margin-bottom: 30px;
+}
+
+.skills-category-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #00FFFF;
+  margin-bottom: 20px;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.skill-name {
+  flex: 1;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #f1f1f1;
+}
+
+.skill-bar {
+  flex: 3;
+  background-color: #333;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 0 10px;
+}
+
+.skill-level {
+  height: 20px;
+  background-color: #00FFFF;
+  transition: width 0.3s ease;
+}
+
+.skill-percentage {
+  flex: 1;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #f1f1f1;
+}
