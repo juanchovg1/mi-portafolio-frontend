@@ -57,10 +57,24 @@
 }
 
 .resume-year {
-  font-family: 'Poppins'; /* Set font to Poppins */
-  font-weight: 900;
+  white-space: pre-wrap;
+  overflow: visible;
+  font-family: Poppins;
   font-size: 26px;
-  line-height: 36px;
+  font-weight: 900;
+  line-height: 1.4;
+  border-radius: 0px;
+  opacity: 1;
+  align-self: flex-start;
+  min-width: 0px;
+  order: 1;
+  min-height: 31px;
+  height: max-content;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: calc(100% + 0px);
+  margin: 0px;
+  z-index: 2;
   color: #00FFFF;
 }
 
