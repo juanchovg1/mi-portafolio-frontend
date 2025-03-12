@@ -16,7 +16,7 @@ const experiences = [
     company: "Rechsteiner Signature Homes",
     location: "Remote (Vancouver, BC, Canada)",
     description:
-      "Built an AI-powered customer care platform with Bubble API to streamline client interactions. Optimized workflows, improving efficiency by 35%, and implemented data analytics tools for decision-making.",
+      "Built a full-stack low-code portal in Bubble, from database design to UI, Developed AI agents integrated with the CRM API and custom portal and Enhanced data analysis tools for better decision-making and client engagement.",
   },
   {
     year: "2024",
@@ -24,7 +24,7 @@ const experiences = [
     company: "Rechsteiner Signature Homes",
     location: "Remote (Vancouver, BC, Canada)",
     description:
-      "Automated CRM & lead management on Monday.com, boosting productivity by 25%. Developed email marketing automations (Mailchimp) and integrated chatbots with Botpress & AppSheet.",
+      "Automated CRM & lead management on Monday.com, boosting productivity by 25%, Built workflow automations with Zapier, streamlining internal operations and Developed a chatbot with n8n & WordPress enhancing customer support and engagement.",
   },
   {
     year: "2022-2023",
