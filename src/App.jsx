@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import ProfileSection from "./components/ProfileSection";
 import AboutMe from "./components/AboutMe";
 import ResumeSection from "./components/ResumeSection";
-import ServicesSection from "./components/ServicesSection"; // Import ServicesSection
+import SkillsSection from "./components/SkillsSection";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <ProfileSection />
       <AboutMe />
       <ResumeSection />
-      <ServicesSection /> {/* Include ServicesSection */}
+      <SkillsSection />
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
