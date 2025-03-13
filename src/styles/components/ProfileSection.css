@@ -42,7 +42,10 @@
     font-weight: 800;
     font-size: 56px;
     color: #f1f1f1;
-    margin-top: 0px; /* Remove top margin */
+    margin-top: 0px;
+    min-height: 140px; /* Add fixed height to prevent layout shifts */
+    display: flex;
+    align-items: center;
 }
 
 .name-highlight {
@@ -54,6 +57,10 @@
     font-weight: 400;
     font-size: 36px;
     color: #f1f1f1;
+    margin: 0;
+    min-height: 86px; /* Add fixed height to prevent layout shifts */
+    display: flex;
+    align-items: center;
 }
 
 .profile-image {
@@ -123,15 +130,39 @@
     .profile-content {
         flex-direction: column;
         max-height: none;
-        margin-top: 20px; /* Add top margin */
+        margin-top: 20px;
     }
 
     .profile-image {
-        display: none; /* Hide profile image */
+        display: none;
     }
 
-    .profile-text,
-    .profile-image {
+    .profile-text {
         width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .name-text {
+        font-size: 32px; /* Reduce font size on mobile */
+        min-height: 80px; /* Adjust minimum height for mobile */
+        line-height: 1.2;
+        justify-content: center; /* Center text */
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .description-text {
+        font-size: 24px; /* Reduce font size on mobile */
+        min-height: 60px; /* Adjust minimum height for mobile */
+        line-height: 1.2;
+        justify-content: center; /* Center text */
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .profile-buttons {
+        margin-top: 20px;
+        justify-content: center;
     }
 }
