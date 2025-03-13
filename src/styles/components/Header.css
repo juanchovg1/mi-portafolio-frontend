@@ -4,7 +4,8 @@
     height: 60px;
     display: flex;
     align-items: center;
-    width: 100vw; /* Ensure header width is 100% of the viewport */
+    justify-content: center;
+    width: 100%;
     position: fixed; /* Fixed position */
     top: 0; /* Stick to the top */
     z-index: 1000; /* Ensure it is above other content */
@@ -12,10 +13,13 @@
 
 .header-content {
     width: 100%;
-    display: flex;
     max-width: 1200px;
+    display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 
 .header-text {
@@ -71,11 +75,11 @@
 
 @media (max-width: 768px) {
     .header {
-        padding: 0 1rem; /* Adjust padding for smaller screens */
+        padding: 0;
     }
 
     .header-content {
-        padding: 0 1rem; /* Adjust padding for smaller screens */
+        padding: 0 15px;
     }
 
     .header-text {
