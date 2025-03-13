@@ -5,7 +5,6 @@ import ProfileSection from "./components/ProfileSection";
 import AboutMe from "./components/AboutMe";
 import ResumeSection from "./components/ResumeSection";
 import ServicesSection from "./components/ServicesSection"; // Import ServicesSection
-import SkillsSection from "./components/SkillsSection"; // Import SkillsSection
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
       <AboutMe />
       <ResumeSection />
       <ServicesSection /> {/* Include ServicesSection */}
-      <SkillsSection /> {/* Include SkillsSection */}
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
