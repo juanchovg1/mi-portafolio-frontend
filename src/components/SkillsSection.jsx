@@ -17,7 +17,7 @@ const skills = [
 { category: 'Frontend & Integrations', skills: [
     { name: 'JavaScript', level: '70%' },
     { name: 'WordPress', level: '70%' },
-    { name: 'Shopify API', level: '85%' },
+    { name: 'Shopify API', level: '75%' },
 ]},
 { category: 'CRM & Marketing Automation', skills: [
     { name: 'Monday.com', level: '85%' },
@@ -38,20 +38,26 @@ return (
     <section className="skills-section">
     <h1 className="skills-title">My Skills</h1>
     <p className="skills-quote">"Efficiency through innovation—turning ideas into automated solutions."</p>
-    {skills.map((category, index) => (
-        <div key={index} className="skills-category">
-        <h2 className="skills-category-title">{category.category}</h2>
-        {category.skills.map((skill, idx) => (
-            <div key={idx} className="skill">
-            <span className="skill-name">{skill.name}</span>
-            <div className="skill-bar">
-                <div className="skill-level" style={{ width: skill.level }}></div>
+    <div className="skills-container">
+        {skills.map((category, index) => (
+            <div key={index} className="skills-category">
+            <h2 className="skills-category-title">{category.category}</h2>
+            <div className="skills-grid">
+                {category.skills.map((skill, idx) => (
+                    <div key={idx} className="skill">
+                    <div className="skill-header">
+                        <span className="skill-name">{skill.name}</span>
+                        <span className="skill-percentage">{skill.level}</span>
+                    </div>
+                    <div className="skill-bar">
+                        <div className="skill-level" style={{ width: skill.level }}></div>
+                    </div>
+                    </div>
+                ))}
             </div>
-            <span className="skill-percentage">{skill.level}</span>
             </div>
         ))}
-        </div>
-    ))}
+    </div>
     </section>
 );
 };
