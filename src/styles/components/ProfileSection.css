@@ -165,6 +165,10 @@
     .profile-section {
         padding: 20px 10px;
         min-height: auto;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        margin: 0;
     }
 
     .profile-content {
@@ -172,6 +176,8 @@
         max-height: none;
         margin-top: 20px;
         padding: 5px;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .profile-text {
@@ -184,6 +190,7 @@
         overflow-wrap: break-word;
         word-wrap: break-word;
         hyphens: auto;
+        box-sizing: border-box;
     }
 
     .name-text {
