@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import ProfileSection from "./components/ProfileSection";
 import AboutMe from "./components/AboutMe";
 import ResumeSection from "./components/ResumeSection";
+import ServicesSection from "./components/ServicesSection";
 import SkillsSection from "./components/SkillsSection";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <ProfileSection />
       <AboutMe />
       <ResumeSection />
+      <ServicesSection />
       <SkillsSection />
       <Routes>
         <Route path="/" element={<Home />} />

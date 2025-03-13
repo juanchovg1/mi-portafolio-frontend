@@ -73,13 +73,13 @@
 }
 
 @media (max-width: 1024px) {
-.services-grid {
-    grid-template-columns: repeat(2, 1fr); /* Change to 2 columns */
-}
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr); /* Change to 2 columns */
+    }
 }
 
 @media (max-width: 768px) {
-.services-grid {
-    grid-template-columns: 1fr; /* Change to 1 column */
-}
+    .services-grid {
+        grid-template-columns: 1fr; /* Change to 1 column */
+    }
 }
