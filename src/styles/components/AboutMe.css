@@ -32,6 +32,7 @@
     width: 100%;
     height: auto;
     object-fit: cover;
+    max-height: 600px;
 }
 
 .about-me-text {
@@ -152,13 +153,22 @@
     .about-me-content {
         flex-direction: column;
         max-height: none;
-        align-items: center; /* Center horizontally */
-        text-align: center; /* Center text */
+        align-items: center;
+        text-align: center;
     }
 
     .about-me-text,
     .about-me-image {
         width: 100%;
-        align-items: center; /* Center horizontally */
+        align-items: center;
+    }
+
+    .about-me-image img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .about-me-title {
+        font-size: 40px;
     }
 }

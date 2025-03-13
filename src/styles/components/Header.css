@@ -75,6 +75,12 @@
     display: none;
 }
 
+.header-menu img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
 @media (max-width: 768px) {
     .header {
         padding: 0;
