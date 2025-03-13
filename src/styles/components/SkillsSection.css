@@ -49,6 +49,7 @@
 
 .skill-bar {
   flex: 3;
+  height: 10px;
   background-color: #333;
   border-radius: 5px;
   overflow: hidden;
