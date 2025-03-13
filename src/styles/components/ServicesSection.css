@@ -41,7 +41,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px; /* Gap between elements */
+    gap: 20px; /* Gap between elements */
     transition: background-color 0.3s, color 0.3s; /* Add transition for dynamic effect */
 }
 
@@ -88,8 +88,7 @@
 
     .service-card {
         height: auto;
-        min-height: 180px;
-        padding: 15px;
+        padding: 0px;
     }
 }
 
