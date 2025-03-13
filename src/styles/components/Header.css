@@ -8,6 +8,8 @@
     width: 100%;
     position: fixed; /* Fixed position */
     top: 0; /* Stick to the top */
+    left: 0;
+    right: 0;
     z-index: 1000; /* Ensure it is above other content */
 }
 
