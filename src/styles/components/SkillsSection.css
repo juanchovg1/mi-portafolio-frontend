@@ -96,7 +96,7 @@
 
 @media (max-width: 1024px) {
   .skills-section {
-    padding: 20px 15px;
+    padding: 20px 0px;
   }
 
   .skills-grid {
@@ -110,7 +110,7 @@
 
 @media (max-width: 768px) {
   .skills-section {
-    padding: 20px 10px;
+    padding: 20px 0px;
   }
 
   .skills-grid {
