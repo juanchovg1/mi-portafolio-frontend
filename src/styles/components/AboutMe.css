@@ -150,6 +150,10 @@
 }
 
 @media (max-width: 768px) {
+    .about-me-section {
+        padding: 20px 0px;
+    }
+    
     .about-me-content {
         flex-direction: column;
         max-height: none;
