@@ -17,7 +17,7 @@ const skills = [
 { category: 'Frontend & Integrations', skills: [
     { name: 'JavaScript', level: '70%' },
     { name: 'WordPress', level: '70%' },
-    { name: 'Shopify API', level: '75%' },
+    { name: 'Shopify API', level: '85%' },
 ]},
 { category: 'CRM & Marketing Automation', skills: [
     { name: 'Monday.com', level: '85%' },
@@ -30,7 +30,7 @@ const skills = [
     { name: 'Anthropic Claude', level: '85%' },
     { name: 'DeepSeek AI', level: '80%' },
     { name: 'AI Agents & RAG Systems', level: '85%' },
-    { name: 'Botpress', level: '80%' },
+    { name: 'Botpress', level: '90%' },
 ]}
 ];
 
