@@ -1,13 +1,15 @@
 .profile-section {
     display: flex;
     max-width: 1200px;
+    width: 100%;
     padding: 40px 20px;
-    margin-top: 20px; /* Add top margin */
+    margin-top: 20px;
     flex-direction: column;
     align-items: center;
     text-align: center;
     background-color: transparent;
     color: white;
+    box-sizing: border-box;
 }
 
 .profile-content {
@@ -18,6 +20,7 @@
     width: 100%;
     height: 100%;
     max-height: 600px;
+    box-sizing: border-box;
 }
 
 .profile-text {
@@ -27,6 +30,7 @@
     justify-content: center;
     width: 50%;
     text-align: left;
+    box-sizing: border-box;
 }
 
 .hello-text {
@@ -43,9 +47,9 @@
     font-size: 56px;
     color: #f1f1f1;
     margin-top: 0px;
-    min-height: 140px; /* Add fixed height to prevent layout shifts */
-    display: flex;
-    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .name-highlight {
@@ -57,10 +61,8 @@
     font-weight: 400;
     font-size: 36px;
     color: #f1f1f1;
-    margin: 0;
-    min-height: 86px; /* Add fixed height to prevent layout shifts */
-    display: flex;
-    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .profile-image {
@@ -69,6 +71,7 @@
     justify-content: center;
     align-items: center;
     width: 50%;
+    box-sizing: border-box;
 }
 
 .profile-image img {
@@ -82,6 +85,8 @@
     margin-top: 16px;
     display: flex;
     gap: 16px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .button-primary {
@@ -93,12 +98,13 @@
     font-weight: 500;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
-    width: 140px; /* Fixed width */
-    height: 40px; /* Fixed height */
-    font-size: 14px; /* Fixed font size */
+    width: 140px;
+    height: 40px;
+    font-size: 14px;
     display: flex;
     align-items: center;
-    justify-content: center; /* Center text */
+    justify-content: center;
+    box-sizing: border-box;
 }
 
 .button-primary:hover {
@@ -116,9 +122,10 @@
     font-weight: 500;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
-    width: 140px; /* Fixed width */
-    height: 40px; /* Fixed height */
-    font-size: 14px; /* Fixed font size */
+    width: 140px;
+    height: 40px;
+    font-size: 14px;
+    box-sizing: border-box;
 }
 
 .button-secondary:hover {
@@ -127,6 +134,10 @@
 }
 
 @media (max-width: 768px) {
+    .profile-section {
+        padding: 20px 10px;
+    }
+
     .profile-content {
         flex-direction: column;
         max-height: none;
@@ -141,28 +152,45 @@
         width: 100%;
         align-items: center;
         text-align: center;
+        height: 280px;
+        position: relative;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .hello-text {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        left: 0;
     }
 
     .name-text {
-        font-size: 32px; /* Reduce font size on mobile */
-        min-height: 80px; /* Adjust minimum height for mobile */
+        position: absolute;
+        top: 40px;
+        width: 100%;
+        font-size: 32px;
         line-height: 1.2;
-        justify-content: center; /* Center text */
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    .description-text {
-        font-size: 24px; /* Reduce font size on mobile */
-        min-height: 60px; /* Adjust minimum height for mobile */
-        line-height: 1.2;
-        justify-content: center; /* Center text */
-        text-align: center;
+        left: 0;
         padding: 0 10px;
     }
 
+    .description-text {
+        position: absolute;
+        top: 160px;
+        width: 100%;
+        font-size: 24px;
+        line-height: 1.2;
+        padding: 0 10px;
+        left: 0;
+    }
+
     .profile-buttons {
-        margin-top: 20px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
         justify-content: center;
+        left: 0;
+        padding: 0 10px;
     }
 }
