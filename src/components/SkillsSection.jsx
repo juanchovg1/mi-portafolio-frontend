@@ -30,7 +30,7 @@ const skills = [
     { name: 'Anthropic Claude', level: '85%' },
     { name: 'DeepSeek AI', level: '80%' },
     { name: 'AI Agents & RAG Systems', level: '85%' },
-]}
+]},
 ];
 
 const SkillsSection = () => {
