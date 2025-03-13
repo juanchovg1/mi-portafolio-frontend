@@ -1,32 +1,66 @@
 import React from 'react';
-import { FaCogs, FaRobot, FaLaptopCode, FaChartLine, FaPlug, FaDatabase } from 'react-icons/fa';
-import '../styles/components/ServicesSection.css';
+import '../styles/components/SkillsSection.css';
 
-const services = [
-{ icon: <FaCogs />, title: 'Automations & Workflows' },
-{ icon: <FaRobot />, title: 'AI Agents & Chatbots' },
-{ icon: <FaLaptopCode />, title: 'Custom Web Apps' },
-{ icon: <FaChartLine />, title: 'Process Optimization' },
-{ icon: <FaPlug />, title: 'API Development & Integration' },
-{ icon: <FaDatabase />, title: 'Data Analytics & Reporting' },
+const skills = [
+  { category: 'Desarrollo & Low-Code', skills: [
+    { name: 'Bubble.io', level: '90%' },
+    { name: 'n8n', level: '85%' },
+    { name: 'Zapier', level: '80%' },
+    { name: 'AppSheet', level: '75%' },
+  ]},
+  { category: 'Backend & Automatización', skills: [
+    { name: 'Python', level: '85%' },
+    { name: 'SQL', level: '80%' },
+    { name: 'Google Cloud Platform', level: '75%' },
+    { name: 'APIs & Webhooks', level: '90%' },
+  ]},
+  { category: 'Frontend & Integraciones', skills: [
+    { name: 'JavaScript', level: '70%' },
+    { name: 'WordPress', level: '70%' },
+    { name: 'Shopify API', level: '75%' },
+  ]},
+  { category: 'CRM & Marketing Automation', skills: [
+    { name: 'Monday.com', level: '85%' },
+    { name: 'Ontraport', level: '80%' },
+    { name: 'Mailchimp', level: '75%' },
+    { name: 'Authorize.net', level: '70%' },
+  ]},
+  { category: 'Herramientas de IA & Data', skills: [
+    { name: 'OpenAI / GPT', level: '90%' },
+    { name: 'Anthropic Claude', level: '85%' },
+    { name: 'DeepSeek AI', level: '80%' },
+    { name: 'AI Agents & RAG Systems', level: '85%' },
+  ]},
+  { category: 'Otros', skills: [
+    { name: 'Botpress', level: '80%' },
+  ]},
 ];
 
-const ServicesSection = () => {
-return (
-    <section className="services-section">
-    <h1 className="services-title">Services</h1>
-    <p className="services-subtitle">"Empowering your business with cutting-edge solutions"</p>
-    <div className="services-grid">
-        {services.map((service, index) => (
-        <div key={index} className="service-card">
-            <div className="service-icon">{service.icon}</div>
-            <h2 className="service-title">{service.title}</h2>
-            <div className="service-line"></div>
+const SkillsSection = () => {
+  return (
+    <section className="skills-section">
+      <h1 className="skills-title">My Skills</h1>
+      <p className="skills-quote">"Efficiency through innovation—turning ideas into automated solutions."</p>
+      {skills.map((category, index) => (
+        <div key={index} className="skills-category">
+          <h2 className="skills-category-title">{category.category}</h2>
+          <div className="skills-grid">
+            {category.skills.map((skill, idx) => (
+              <div key={idx} className="skill">
+                <div className="skill-header">
+                  <span className="skill-name">{skill.name}</span>
+                  <span className="skill-percentage">{skill.level}</span>
+                </div>
+                <div className="skill-bar">
+                  <div className="skill-level" style={{ width: skill.level }}></div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
-        ))}
-    </div>
+      ))}
     </section>
-);
+  );
 };
 
-export default ServicesSection;
+export default SkillsSection;
