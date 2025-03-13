@@ -3,16 +3,16 @@ import '../styles/components/SkillsSection.css';
 
 const skills = [
 { category: 'Development & Low-Code', skills: [
-    { name: 'Bubble.io', level: '90%' },
-    { name: 'n8n', level: '85%' },
-    { name: 'Zapier', level: '80%' },
-    { name: 'AppSheet', level: '75%' },
+    { name: 'Bubble.io', level: '95%' },
+    { name: 'n8n', level: '90%' },
+    { name: 'Zapier', level: '95%' },
+    { name: 'AppSheet', level: '85%' },
 ]},
 { category: 'Backend & Automation', skills: [
     { name: 'Python', level: '85%' },
     { name: 'SQL', level: '80%' },
     { name: 'Google Cloud Platform', level: '75%' },
-    { name: 'APIs & Webhooks', level: '90%' },
+    { name: 'APIs & Webhooks', level: '95%' },
 ]},
 { category: 'Frontend & Integrations', skills: [
     { name: 'JavaScript', level: '70%' },
@@ -20,10 +20,10 @@ const skills = [
     { name: 'Shopify API', level: '75%' },
 ]},
 { category: 'CRM & Marketing Automation', skills: [
-    { name: 'Monday.com', level: '85%' },
-    { name: 'Ontraport', level: '80%' },
-    { name: 'Mailchimp', level: '75%' },
-    { name: 'Authorize.net', level: '70%' },
+    { name: 'Monday.com', level: '95%' },
+    { name: 'Ontraport', level: '85%' },
+    { name: 'Mailchimp', level: '85%' },
+    { name: 'Authorize.net', level: '80%' },
 ]},
 { category: 'IA Tools & Data', skills: [
     { name: 'OpenAI / GPT', level: '90%' },
