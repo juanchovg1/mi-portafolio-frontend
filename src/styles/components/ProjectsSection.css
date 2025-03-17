@@ -1,0 +1,122 @@
+.projects-section {
+  padding: 6rem 0;
+  background-color: var(--container-color);
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-title h2 {
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  display: block;
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.project-card {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  height: 300px;
+}
+
+.project-small {
+  grid-column: span 1;
+}
+
+.project-large {
+  grid-column: span 2;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project-card:hover .project-overlay {
+  opacity: 1;
+}
+
+.project-card:hover .project-image {
+  transform: scale(1.1);
+}
+
+.project-overlay h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.project-overlay p {
+  color: #fff;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 968px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .project-large {
+    grid-column: span 1;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .project-card {
+    height: 250px;
+  }
+  
+  .project-small,
+  .project-large {
+    grid-column: span 1;
+  }
+} 
