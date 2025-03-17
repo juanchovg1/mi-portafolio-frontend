@@ -1,6 +1,11 @@
 .projects-section {
-  padding: 6rem 0;
-  background-color: var(--container-color);
+  padding: 40px 20px;
+  text-align: center;
+  background-color: transparent;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .section-title {
@@ -9,24 +14,27 @@
 }
 
 .section-title h2 {
-  font-size: var(--h1-font-size);
-  color: var(--title-color);
-  margin-bottom: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 56px;
+  color: #f1f1f1;
+  margin-bottom: 10px;
 }
 
 .section-subtitle {
   display: block;
-  font-size: var(--small-font-size);
-  color: var(--text-color-light);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #999999;
 }
 
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 1rem;
 }
 
 .project-card {
@@ -35,6 +43,7 @@
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   height: 300px;
+  background-color: #1a1a1a;
 }
 
 .project-small {
@@ -78,6 +87,7 @@
 }
 
 .project-overlay h3 {
+  font-family: 'Poppins', sans-serif;
   color: #fff;
   font-size: 1.5rem;
   margin-bottom: 1rem;
@@ -85,6 +95,7 @@
 }
 
 .project-overlay p {
+  font-family: 'Poppins', sans-serif;
   color: #fff;
   text-align: center;
   font-size: 0.9rem;
@@ -96,19 +107,29 @@
 }
 
 /* Responsive Design */
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 1024px) {
   .projects-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
   }
   
   .project-large {
     grid-column: span 1;
   }
+
+  .projects-section {
+    padding: 20px 10px;
+  }
+
+  .section-title h2 {
+    font-size: 40px;
+  }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .projects-grid {
     grid-template-columns: 1fr;
+    gap: 1rem;
   }
   
   .project-card {
@@ -118,5 +139,13 @@
   .project-small,
   .project-large {
     grid-column: span 1;
+  }
+
+  .projects-section {
+    padding: 20px 10px;
+  }
+
+  .section-title h2 {
+    font-size: 32px;
   }
 } 
